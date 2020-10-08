@@ -1,5 +1,1 @@
-.mw_admin_panel .mw_sidebar,
-.mw_admin_panel .mw_content_wrapper
-{
-    float: left;
-}
+.mw_admin_panel .mw_content_wrapper,.mw_admin_panel .mw_sidebar{float:left}
