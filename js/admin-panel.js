@@ -1,9 +1,1 @@
-jQuery(document).ready(function ($) {
-    $(document).on('click', '.mw_menu_icons', function(e){
-        let mw_this = $(this),
-            mw_sidebar = mw_this.next('.mw_sidebar');
-        mw_this.toggleClass('dashicons-no');
-        mw_sidebar.toggleClass('mw_open');
-    });
-    $('.mw_select2').select2();
-});
+jQuery(document).ready(function(e){e(document).on("click",".mw_menu_icons",function(n){let o=e(this),s=o.next(".mw_sidebar");o.toggleClass("dashicons-no"),s.toggleClass("mw_open")}),e(".mw_select2").select2()});
